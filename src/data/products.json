@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Quantum Widget",
+    "imgUrl": "https://example.com/images/quantum-widget.jpg",
+    "description": "A revolutionary device that harnesses quantum energy for everyday use."
+  },
+  {
+    "id": 2,
+    "name": "Gizmo Flux",
+    "imgUrl": "https://example.com/images/gizmo-flux.jpg",
+    "description": "An advanced tool for optimizing workflow and productivity."
+  },
+  {
+    "id": 3,
+    "name": "Eco Sphere",
+    "imgUrl": "https://example.com/images/eco-sphere.jpg",
+    "description": "A sustainable living solution in a compact spherical design."
+  },
+  {
+    "id": 4,
+    "name": "Hyper Trinket",
+    "imgUrl": "https://example.com/images/hyper-trinket.jpg",
+    "description": "A multi-functional accessory for the modern tech enthusiast."
+  },
+  {
+    "id": 5,
+    "name": "Nano Gadget",
+    "imgUrl": "https://example.com/images/nano-gadget.jpg",
+    "description": "A tiny yet powerful device for on-the-go convenience."
+  },
+  {
+    "id": 6,
+    "name": "Flux Capacitor",
+    "imgUrl": "https://example.com/images/flux-capacitor.jpg",
+    "description": "A futuristic component for next-generation machinery."
+  },
+  {
+    "id": 7,
+    "name": "Virtual Orb",
+    "imgUrl": "https://example.com/images/virtual-orb.jpg",
+    "description": "An immersive virtual reality experience in a sleek orb design."
+  },
+  {
+    "id": 8,
+    "name": "Sonic Blaster",
+    "imgUrl": "https://example.com/images/sonic-blaster.jpg",
+    "description": "A high-powered audio device with cutting-edge sound technology."
+  },
+  {
+    "id": 9,
+    "name": "Photon Lamp",
+    "imgUrl": "https://example.com/images/photon-lamp.jpg",
+    "description": "An energy-efficient lighting solution with customizable settings."
+  },
+  {
+    "id": 10,
+    "name": "Gravity Boots",
+    "imgUrl": "https://example.com/images/gravity-boots.jpg",
+    "description": "Footwear designed to enhance mobility in low-gravity environments."
+  }
+]
