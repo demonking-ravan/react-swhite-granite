@@ -11,7 +11,7 @@ type Product = {
 
 
 export default function Products() {
-    const [products, setProducts] = useState<Product[]>(productsData);
+    const [products] = useState<Product[]>(productsData);
 
     return (
         <>
