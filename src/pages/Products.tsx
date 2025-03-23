@@ -16,7 +16,7 @@ export default function Products() {
     return (
         <>
             <section>
-                <div data-v-56f59047="" className="animate-it animation-trigger">
+                <div className="animate-it animation-trigger">
                     <div className="grid-main sec_container">
                         <div className="col-span-12 lg:col-span-9 text-block">
                             <div className="richtext">

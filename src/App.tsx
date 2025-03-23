@@ -6,6 +6,7 @@ import Contact from './pages/Contact';
 import Factory from './pages/Factory';
 import Header from './components/Header';
 import "./styles.css";
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="*" element={<h1>404 - Not Found</h1>} /> {/* Optional: Catch-all route */}
       </Routes>
+      <Footer/>
     </>
   )
 }

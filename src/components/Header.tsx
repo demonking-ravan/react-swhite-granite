@@ -8,7 +8,7 @@ export default function Header() {
             <Link to="/home" className="font-serif text-2xl font-bold text-gray-800 hover">SWhite</Link>
           </div>
           <nav>
-            <ul className='flex'>
+            <ul className='hidden md:flex'>
               <li className='overflow-hidden relative w-fit group'>
                 <Link className='nav-link group-hover:-translate-y-[101%] transition-all duration-700 inline-block' to="/">Home</Link>
                 <Link aria-hidden={true} className='nav-link absolute left-0 group-hover:translate-y-[0] translate-y-[101%] top-0 transition-all duration-700' to="/">Home</Link>
