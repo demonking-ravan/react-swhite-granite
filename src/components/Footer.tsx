@@ -10,13 +10,16 @@ export default function Footer() {
                     </div>
 
                     <div className="col-start-1 col-end-6 md:col-start-5 md:col-end-9 flex flex-col justify-center mt-6 md:mt-0">
-                        <p className="font-bold text-primary uppercase mb-1">SUMMER SEASON</p>
-                        <p className="font-light">06.06.2025 - 26.10.2025</p>
+                        <p className="font-bold text-primary uppercase mb-1">Call us now</p>
+                        <p className="font-light">9414012234, 8890044922</p>
                     </div>
 
                     <div className="col-start-7 md:col-start-9 col-end-13 flex flex-col justify-center mt-6 md:mt-0">
-                        <p className="font-bold text-primary uppercase mb-1">Winter season</p>
-                        <p className="font-light">13.12.2024 - 22.04.2025</p>
+                        <p className="font-bold text-primary uppercase mb-1">Email us</p>
+                        <a className="mb-0" href="mailto:swhitegranite11@gmail.com">
+                            <p className="font-light [font-size:clamp(1.125rem,18px,1.125rem)] [line-height:clamp(1.46875rem,calc(.50223vw_+_20.28571px),1.75rem)]">swhitegranite11@gmail.com</p>
+                        </a>
+                        {/* <p className="font-light">13.12.2024 - 22.04.2025</p> */}
                     </div>
 
                     <div className="col-start-1 col-end-13 md:col-start-1 md:col-end-4 lg:col-start-1 lg:col-end-5 flex items-start justify-start lg:justify-normal h-fit mt-6 lg:pl-1">
@@ -32,7 +35,7 @@ export default function Footer() {
                                     Rajasthan - 305801
                                 </p>
                             </address>
-                            <a href="https://maps.app.goo.gl/j4PCbmLwr4KFhFhc6" className="not-italic inline-flex items-center no-underline arrow-wrapper">
+                            <a href="https://maps.app.goo.gl/Y77Aj9tXcYwK3daz6" className="not-italic inline-flex items-center no-underline arrow-wrapper">
                                 <span className="link-after arrowLink">
                                     Getting here
                                     <div className="link-container">

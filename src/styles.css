@@ -187,8 +187,8 @@
         font-weight: 500;
     }
     .blog-content > ul {
-        list-style: dot;
-        padding-left: 1.25rem;
+        list-style: inside;
+        /* padding-left: 1.25rem; */
     }
 }
 
