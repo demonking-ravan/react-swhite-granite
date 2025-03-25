@@ -120,6 +120,76 @@
     .video {
         height: calc(100vh - (100px) - (clamp(1.5rem, calc(.03571428571428571 * (100vw - 640px) + 24px), 3.5rem)));
     }
+
+    .inner-overlay-container {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        overflow: scroll;
+        position: relative;
+        width: 100%;
+    }
+    .close-overlay {
+        cursor: pointer;
+        display: block;
+        left: 1rem;
+        position: absolute;
+        top: 1rem;
+        z-index: 10;
+    }
+    .main-navigation-wrapper {
+        --tw-bg-opacity: 1;
+        background-color: #1e5e42;
+        background-color: rgb(30 94 66 / var(--tw-bg-opacity));
+        padding: 5rem clamp(1.5rem, calc(3.57143vw + 1.14286px), 3.5rem) 3rem;
+        width: 100%;
+    }
+    .main-header li {
+        align-items: center;
+        justify-content: center;
+        margin-right: 1rem;
+        margin-top: 1rem;
+    }
+    .main-header, .main-header li {
+        display: flex;
+        margin-bottom: 0;
+    }
+    .main-header li a {
+        hyphenate-limit-chars: 7 2 2;
+        --tw-border-opacity: .2;
+        --tw-text-opacity: 1;
+        border-color: rgb(255 255 255 / var(--tw-border-opacity));
+        border-radius: 9999px;
+        border-width: 1px;
+        color: rgb(255 255 255 / var(--tw-text-opacity));
+        font-size: clamp(1.375rem, calc(2.00893vw + 9.14286px), 2.5rem);
+        /* line-height: 1; */
+        line-height: clamp(1.875rem, calc(2.00893vw + 17.14286px), 3rem);
+        padding: 1rem 1.5rem;
+        text-decoration-line: none;
+        text-transform: uppercase;
+    }
+
+
+    .blog-content > h2 {
+        font-size: clamp(1.375rem, calc(2.00893vw + 9.14286px), 2.5rem);
+        line-height: clamp(1.875rem, calc(2.00893vw + 17.14286px), 3rem);
+        margin-block: 1.25rem;
+        font-family: var(--font-serif);
+    }
+    .blog-content > p {
+        margin-bottom: .75rem;
+        font-size: clamp(1rem, calc(1.33929vw + 19.42857px), 1.25rem);
+        /* line-height: clamp(2.25rem, calc(1.33929vw + 27.42857px), 3rem); */
+        font-weight: 300;
+    }
+    .blog-content > p > strong {
+        font-weight: 500;
+    }
+    .blog-content > ul {
+        list-style: dot;
+        padding-left: 1.25rem;
+    }
 }
 
 blockquote > span {

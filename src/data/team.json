@@ -2,26 +2,26 @@
     {
         "name": "Jagdish Prasad Sahu",
         "designation" :  "Director",
-        "imgUrl": "https://i.imgur.com/6QKq5kx.jpg"
+        "imgUrl": "/images/team/jagdish-prasad-sahu.jpg"
     },
     {
         "name": "Laxmi Narayan Sahu",
-        "designation": "Partner",
-        "imgUrl": "https://i.imgur.com/6QKq5kx.jpg"
+        "designation": "Director",
+        "imgUrl": "/images/team/laxmi-narayan-sahu.jpg"
     },
     {
         "name": "Ghanshyam Sahu",
-        "designation": "Partner",
-        "imgUrl": "https://i.imgur.com/6QKq5kx.jpg"
+        "designation": "Director",
+        "imgUrl": "/images/test-img.jpg"
     },
     {
         "name": "Praveen Kumar Sahu",
-        "designation": "Partner",
-        "imgUrl": "https://i.imgur.com/6QKq5kx.jpg"
+        "designation": "Director",
+        "imgUrl": "/images/team/praveen-kumar-sahu.jpg"
     },
     {
         "name": "Ramesh sahu",
         "designation": "Manager",
-        "imgUrl": "https://i.imgur.com/6QKq5kx.jpg"
+        "imgUrl": "/images/team/ramesh-sahu.jpg"
     }
 ]

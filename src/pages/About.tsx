@@ -265,8 +265,8 @@ export default function About() {
                         {
                             teamMembers.map((teamMember) => (
                                 <div key={teamMember.name} className="">
+                                    <img src={teamMember.imgUrl} alt={teamMember.name} className="w-full object-cover h-64" />
                                     <div className="bg-white rounded-lg shadow-md p-6">
-                                        <img src={teamMember.imgUrl} alt={teamMember.name} className="w-full h-auto" />
                                         <h3 className="text-lg font-bold">{teamMember.name}</h3>
                                         <p className="text-sm">{teamMember.designation}</p>
                                     </div>
