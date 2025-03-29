@@ -28,7 +28,7 @@ export default function TestimonialSlider() {
             slidesPerView={1}
             navigation
             pagination={{ clickable: true }}
-            // autoplay={{ delay: 3000 }}
+            autoplay={{ delay: 3000 }}
         >
             {testimonials.map((testimonial) => <SwiperSlide>
                 <div className="max-w-2xl text-center mx-auto mb-10">

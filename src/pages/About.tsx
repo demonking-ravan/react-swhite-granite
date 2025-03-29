@@ -1,7 +1,7 @@
 import HoverCard from "../components/HoverCard";
 import SectionTitle from "../components/SectionTitle";
+import TeamSlider from "../components/TeamSlider";
 import TestimonialSlider from "../components/TestimonialSlider";
-import teamMembers from "../data/team.json";
 
 export default function About() {
     return (
@@ -12,7 +12,7 @@ export default function About() {
                         <div className="col-span-12 lg:col-span-9 text-block">
                             <div className="richtext">
                                 <h1 className="font-serif">About us</h1>
-                                <blockquote>
+                                <blockquote className="text-justify">
                                     At <span>S White Granite</span>, we’ve been transforming spaces for over 25 years with our premium marble and granite products.
                                     Established as a trusted name in the stone industry, our company has consistently set the standard for <span>quality</span>,
                                     <span>craftsmanship</span>, and <span>reliability</span>. From luxury homes to commercial spaces, we offer a wide variety of marble,
@@ -181,8 +181,8 @@ export default function About() {
 
                 <div className="w-full absolute top-20 sm:top-1/2 xl:left-1/2 xl:-translate-x-1/2 sm:-translate-y-1/2 xl:max-w-screen-xl 2xl:max-w-screen-2xl mx-auto">
                     <div className="text-white flex flex-col md:flex-row gap-12 sm:gap-8 lg:gap-12 w-full relative">
-                        <div className="w-full sm:justify-end flex gap-6 sm:w-[401px] lg:w-[513px] xl:w-[549px] flex-shrink-0">
-                            <div className="w-10 sm:w-full h-2 bg-white xl:absolute xl:-left-[81.5%] 2xl:-left-[85%]"></div>
+                        <div className="w-full md:justify-end flex gap-6 sm:w-[401px] lg:w-[513px] xl:w-[549px] flex-shrink-0 text-">
+                            <div className="w-10 md:w-full h-2 bg-white xl:absolute xl:-left-[81.5%] 2xl:-left-[85%]"></div>
                             <span className="heading md:-mt-1.5 lg:-mt-2 font-serif">
                                 {/* text-[220px] sm:text-[280px] xl:text-[320px] leading-[158px] sm:leading-[201px] xl:leading-[230px] md:-mt-1.5 lg:-mt-2 */}
                                 25
@@ -251,7 +251,7 @@ export default function About() {
                 </div>
             </section>
 
-            <section>
+            <section className="py-16 lg:py-32 my-0 lg:my-0 bg-black text-white">
                 <div className="sec_container">
                     <div>
                         <SectionTitle text="our team" />
@@ -261,7 +261,7 @@ export default function About() {
                         </h2>
                     </div>
 
-                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-7 mt-16">
+                    {/* <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-7 mt-16">
                         {
                             teamMembers.map((teamMember) => (
                                 <div key={teamMember.name} className="">
@@ -273,9 +273,10 @@ export default function About() {
                                 </div>
                             ))
                         }
-                    </div>
+                    </div> */}
+                    <TeamSlider/>
                 </div>
-            </section>
+                </section>
 
             <section className="sec_container">
                 <div className="flex flex-wrap gap-10 md:gap-0">
