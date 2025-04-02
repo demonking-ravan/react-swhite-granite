@@ -29,24 +29,36 @@ const Blogs: React.FC<BlogsProp> = ({ posts }) => {
                     <div className="mt-14 px-7 w-1/2 "></div>
                 </div> */}
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
                     {posts.map((post) => (
-                        <div key={post.slug} className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
-                            {/* <!-- Product Image --> */}
-                            <img src={post.frontmatter.imgUrl} alt="Product Image" className="w-full h-48 object-cover" />
-                            {/* <!-- Product Details --> */}
-                            <div className="p-4">
-                                <h3 className="sec_heading font-serif">
-                                    <Link to={`/blog/${post.slug}`}>{post.frontmatter.title}</Link>
-                                </h3>
-                                <p className=" text-gray-600 mt-1">{post.frontmatter.excerpt}</p>
-                                <small>{post.frontmatter.date}</small>
-                                {/* <p className="text-lg font-bold text-gray-900 mt-2">CHF 45.00</p> */}
+                        // <div key={post.slug} className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
+                        //     Product Image
+                        //     <img src={post.frontmatter.imgUrl} alt="Product Image" className="w-full h-48 object-cover" />
+                        //     Product Details
+                        //     <div className="p-4">
+                        //         <h3 className="sec_heading font-serif">
+                        //             <Link to={`/blog/${post.slug}`}>{post.frontmatter.title}</Link>
+                        //         </h3>
+                        //         <p className=" text-gray-600 mt-1">{post.frontmatter.excerpt}</p>
+                        //         <small>{post.frontmatter.date}</small>
+                        //         <p className="text-lg font-bold text-gray-900 mt-2">CHF 45.00</p>
+                        //     </div>
+                        // </div>
+                        <Link to={`/blog/${post.slug}`} key={post.slug} className="group hover:bg-gray-100 focus:outline-hidden focus:bg-gray-100 rounded-xl p-5 transition">
+                            <div className="">
+                                <img className="w-full object-cover rounded-xl max-h-56" src={post.frontmatter.imgUrl} alt="Blog Image" />
                             </div>
-                        </div>
+                            <h3 className="mt-5 text-xl text-gray-800">
+                                {post.frontmatter.title}
+                            </h3>
+                            <p className="mt-3 inline-flex items-center gap-x-1 text-sm font-semibold text-gray-800">
+                                Learn more
+                                <svg className="shrink-0 size-4 transition ease-in-out group-hover:translate-x-1 group-focus:translate-x-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m9 18 6-6-6-6" /></svg>
+                            </p>
+                        </Link>
                     ))}
                 </div>
-            </section>
+            </section >
         </>
     )
 }

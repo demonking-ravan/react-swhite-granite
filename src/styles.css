@@ -203,6 +203,20 @@ blockquote > span {
     font-weight: 500;
 }
 
+.filter-dropdown::before {
+    content: "";
+    --tw-shadow: 0 10px 15px -3px var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 4px 6px -4px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+    display: inline-block;
+    position:absolute; 
+    top:0; 
+    left:0; 
+    border-radius: 8px; 
+    background-color: white; 
+    z-index: 10; 
+    width: 100%;
+    height: 100%;
+}
 
 /* Customize navigation buttons */
 .swiper-button-prev,

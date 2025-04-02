@@ -10,6 +10,7 @@ import { useEffect, useState } from 'react';
 import { loadPosts, Post } from './utils/loadPosts';
 import "./styles.css";
 import BlogPost from './pages/BlogPost';
+import AnnouncementBanner from './components/AnnouncementBanner';
 
 function App() {
   const [posts, setPosts] = useState<Post[]>([]);
@@ -23,6 +24,7 @@ function App() {
 
   return (
     <>
+      <AnnouncementBanner/>
       <Header/>
       <Routes>
         <Route path="/" element={<Home />} />
