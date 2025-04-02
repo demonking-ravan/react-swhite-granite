@@ -1,6 +1,5 @@
 import HoverCard from "../components/HoverCard";
 import SectionTitle from "../components/SectionTitle";
-import TeamSlider from "../components/TeamSlider";
 import TestimonialSlider from "../components/TestimonialSlider";
 import teamMembers from "../data/team.json";
 
