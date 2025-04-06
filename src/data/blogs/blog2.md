@@ -1,7 +1,7 @@
 ---
-title: "Granite Kitchen Countertops: The Ultimate Guide for 2025"
+title: "Granite Kitchen Countertops - The Ultimate Guide for 2025"
 date: "2025-03-15"
-imgUrl: "/images/test-img.jpg"
+imgUrl: "/images/kitchen-countertops.png"
 excerpt: "Granite countertops have become a staple in kitchens around the world, and it’s no surprise why."
 ---
 

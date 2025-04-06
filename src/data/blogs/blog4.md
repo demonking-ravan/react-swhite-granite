@@ -1,7 +1,7 @@
 ---
 title: " Granite vs. Quartz - Which Is Better for Your Home? "
 date: "2025-03-15"
-imgUrl: "/images/test-img.jpg"
+imgUrl: "/images/granite-quartz.jpg"
 excerpt: "When it comes to selecting the perfect material for your kitchen or bathroom countertops, granite and quartz are two of the most popular options."
 ---
 

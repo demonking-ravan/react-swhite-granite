@@ -29,7 +29,7 @@ export default function About() {
                     <div className="w-full h-full relative">
                         <img
                             className="w-full h-full object-cover"
-                            src="https://cdn.sanity.io/images/534owa5g/production/8b613f806d0c7df68be3963b3e653d40114a6809-8192x5464.jpg?rect=0,469,8192,4526&w=1792&h=990&fit=crop&auto=format"
+                            src="/images/stone-yard-one.jpg"
                             alt="image"
                         />
                         <HoverCard positionStyles="right-[-16px] bottom-[-29px]" />
@@ -302,13 +302,13 @@ export default function About() {
                         </p>
                     </div>
                     <div className="w-full h-full md:flex-1">
-                        <img className="w-full max-h-[420px] object-cover" src="/images/test-img.jpg" alt="image" />
+                        <img className="w-full max-h-[420px] object-cover" src="/images/AGM-Warehouse.jpg" alt="image" />
                     </div>
                 </div>
 
                 <div className="flex flex-wrap mt-10 flex-col-reverse md:[flex-direction:initial] gap-10 md:gap-0">
                     <div className="w-full h-full md:w-2/5">
-                        <img className="w-full max-h-[420px] object-cover" src="/images/test-img.jpg" alt="image" />
+                        <img className="w-full max-h-[420px] object-cover" src="/images/vision.jpg" alt="image" />
                     </div>
                     <div className="w-full md:flex-1 md:pl-18 md:max-w-lg flex gap-8 flex-col justify-end">
                         <h2 className="sec_heading font-serif">

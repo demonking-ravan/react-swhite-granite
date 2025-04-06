@@ -35,12 +35,14 @@ export default function Products() {
                 </div>
             </section>
             <section className="sec_container">
-                <div className="group relative">
+                <button className="group relative">
                     <span className="flex items-center border-[0.8px] w-max px-2">
                         <svg className="mr-4.5" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="20px" width="20px">
                             <path d="M16 120h480v48H16zm80 112h320v48H96zm96 112h128v48H192z"></path>
                         </svg>
-                        Filter
+                        <span>
+                            Filter
+                        </span>
                         <svg className="ml-1.5" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="20px" width="20px">
                             <path fill="none" stroke-linecap="square" stroke-miterlimit="10" stroke-width="48" d="m112 184 144 144 144-144"></path>
                         </svg>
@@ -52,7 +54,7 @@ export default function Products() {
                             <button className="px-5 py-2 w-max bg-primary hover:bg-[#0e412b] rounded-sm text-white" onClick={() => setSelectedCollection(null)}>All Products</button>
                         </div>
                     </div>
-                </div>
+                </button>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-8 justify-start w-full mt-16">
                     {filteredProducts.map((product) => (
                         <ProductCard key={product.id} id={product.id} name={product.name} imgUrl={product.imgUrl} description={product.description ? product.description : null} />

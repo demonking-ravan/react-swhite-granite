@@ -1,7 +1,7 @@
 ---
 title: "Top 5 Granite Countertop Trends in 2025"
 date: "2025-03-01"
-imgUrl: "/images/test-img.jpg"
+imgUrl: "/images/trends-2025.png"
 excerpt: "As we move into 2025, granite continues to evolve, offering exciting new trends in both desi..."
 ---
 
