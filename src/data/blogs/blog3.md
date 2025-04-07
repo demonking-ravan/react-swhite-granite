@@ -1,7 +1,7 @@
 ---
 title: " The Environmental Impact of Granite - Is it Sustainable? "
 date: "2025-03-15"
-imgUrl: "/images/environmental-impact.webp"
+imgUrl: "/images/sustainable-granite.png"
 excerpt: "Granite has long been a favorite material for countertops, flooring, and other home features due to its durability, beauty, and timeless appeal."
 ---
 

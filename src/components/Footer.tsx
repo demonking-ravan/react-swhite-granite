@@ -2,11 +2,13 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
     return (
-        <footer id="footer" className="flex flex-col items-center w-full bg-white pt-6 relative z-[3]">
-            <div className="sec_container mx-auto pt-6 pb-2 lg:py-6">
+        <footer id="footer" className="flex flex-col items-center w-full bg-[#F7F7F7] pt-6 relative z-[3]">
+            <div className="sec_container mx-auto pt-6 pb-2 lg:py-6 ">
                 <div className="grid-main">
-                    <div>
-                        <Link to="/home" className="font-serif text-2xl font-bold text-gray-800 hover">SWhite</Link>
+                    <div className="col-start-1 col-end-13 md:col-end-5 flex justify-center md:justify-start">
+                        <Link to="/home" className="font-serif text-2xl font-bold text-gray-800 hover">
+                            <img className='h-auto max-w-2xs ' src="/logo.png" alt="logo" />
+                        </Link>
                     </div>
 
                     <div className="col-start-1 col-end-6 md:col-start-5 md:col-end-9 flex flex-col justify-center mt-6 md:mt-0">
@@ -55,12 +57,12 @@ export default function Footer() {
                                     <div className="link-container">
                                         <span className="inline-grid init-arrow w-full h-full">
                                             <svg fill="none" viewBox="0 0 41 41" className="inline-grid init-arrow w-full h-full">
-                                                <path stroke="#1E5E42" stroke-linecap="round" stroke-linejoin="round" d="M38.741 2.258 1.967 39.032M39.468 39.274V1.532H1.727"></path>
+                                                <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" d="M38.741 2.258 1.967 39.032M39.468 39.274V1.532H1.727"></path>
                                             </svg>
                                         </span>
                                         <span className="inline-grid hover-arrow w-full h-full">
                                             <svg fill="none" viewBox="0 0 41 41" className="inline-grid hover-arrow w-full h-full">
-                                                <path stroke="#1E5E42" stroke-linecap="round" stroke-linejoin="round" d="M38.741 2.258 1.967 39.032M39.468 39.274V1.532H1.727"></path>
+                                                <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" d="M38.741 2.258 1.967 39.032M39.468 39.274V1.532H1.727"></path>
                                             </svg>
                                         </span>
                                     </div>

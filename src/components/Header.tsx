@@ -12,7 +12,7 @@ export default function Header() {
   return (
     <>
       <header className="h-24 w-full animate-fadeIn flex items-center justify-between">
-        <div className="sec_container flex items-center justify-between">
+        <div className="sec_container flex items-center justify-between h-full">
           <div className="md:hidden cursor-pointer" onClick={toggleMobileMenu}>
             <Link to="/">
               <svg xmlns="http://www.w3.org/2000/svg" width="21" height="11" fill="none" className="">
@@ -20,8 +20,10 @@ export default function Header() {
               </svg>
             </Link>
           </div>
-          <div>
-            <Link to="/home" className="font-serif text-2xl font-bold text-gray-800 hover">SWhite</Link>
+          <div className='h-full flex items-center'>
+            <Link to="/" className="font-serif text-2xl font-bold text-gray-800 hover h-2/5 inline-block">
+              <img className='h-full w-auto' src="/logo.png" alt="logo" />
+            </Link>
           </div>
           <nav>
             <ul className={`md:flex hidden`}>

@@ -29,7 +29,7 @@ export default function About() {
                     <div className="w-full h-full relative">
                         <img
                             className="w-full h-full object-cover"
-                            src="/images/stone-yard-one.jpg"
+                            src="/images/about-us.png"
                             alt="image"
                         />
                         <HoverCard positionStyles="right-[-16px] bottom-[-29px]" />
@@ -265,7 +265,7 @@ export default function About() {
                         {
                             teamMembers.map((teamMember) => (
                                 <div className="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-4">
-                                    <img className="rounded-lg size-20 object-cover" src={teamMember.imgUrl} alt="Avatar" />
+                                    {/* <img className="rounded-lg size-20 object-cover" src={teamMember.imgUrl} alt="Avatar" /> */}
 
                                     <div className="grow">
                                         <div>
@@ -284,7 +284,7 @@ export default function About() {
                 </div>
             </section>
 
-            <section className="sec_container">
+            {/* <section className="sec_container">
                 <div className="flex flex-wrap gap-10 md:gap-0">
                     <div className="w-full md:w-2/5 md:pr-18 flex gap-8 flex-col justify-end">
                         <h2 className="sec_heading font-serif">
@@ -324,6 +324,75 @@ export default function About() {
                             focus on sustainability and responsible sourcing.
                         </p>
                     </div>
+                </div>
+            </section> */}
+
+            <section className="sec_container">
+                {/* mission */}
+                <div className="py-10 lg:py-14">
+                    {/* Grid */}
+                    <div className="md:grid md:grid-cols-2 md:items-center md:gap-12 xl:gap-32">
+                        <div>
+                            <img className="rounded-xl" src="/images/AGM-Warehouse.jpg" alt="our mission" />
+                        </div>
+                        {/* End Col */}
+
+                        <div className="mt-5 sm:mt-10 lg:mt-0">
+                            <div className="space-y-6 sm:space-y-8">
+                                {/* Title */}
+                                <div className="space-y-2 md:space-y-4">
+                                    <h2 className="sec_heading font-serif">
+                                        Our <strong>Mission</strong>
+                                    </h2>
+                                    <p>
+                                        With over 25 years in the industry, our mission
+                                        remains the same: to provide premium marble and
+                                        granite products that meet the highest standards of
+                                        quality and craftsmanship. We are passionate about
+                                        delivering elegant, durable, and timeless solutions
+                                        that elevate the aesthetic of every space. Guided by
+                                        innovation and a commitment to excellence, we ensure
+                                        each project is an expression of unparalleled skill and artistry.
+                                    </p>
+                                </div>
+                                {/* End Title */}
+                            </div>
+                        </div>
+                        {/* End Col */}
+                    </div>
+                    {/* End Grid */}
+                </div>
+
+                {/* vision */}
+                <div className="py-10 lg:py-14">
+                    {/* Grid */}
+                    <div className="md:grid md:grid-cols-2 md:items-center md:gap-12 xl:gap-32">
+                        <div className="mt-5 sm:mt-10 lg:mt-0">
+                            <div className="space-y-6 sm:space-y-8">
+                                {/* Title */}
+                                <div className="space-y-2 md:space-y-4">
+                                    <h2 className="sec_heading font-serif">
+                                        Our <strong>Vision</strong>
+                                    </h2>
+                                    <p>
+                                        We are guided and inspired by our vision to be the leading
+                                        supplier of marble and granite in the industry. Our goal is
+                                        to consistently exceed client expectations by offering a vast
+                                        range of high-quality stone products that cater to diverse tastes
+                                        and needs. We envision transforming spaces with the beauty and
+                                        longevity of our products while maintaining an unwavering
+                                        focus on sustainability and responsible sourcing.
+                                    </p>
+                                </div>
+                                {/* End Title */}
+                            </div>
+                        </div>
+
+                        <div>
+                            <img className="rounded-xl" src="/images/vision.jpg" alt="our mission" />
+                        </div>
+                    </div>
+                    {/* End Grid */}
                 </div>
             </section>
 

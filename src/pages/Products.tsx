@@ -15,6 +15,7 @@ type Product = {
 export default function Products() {
     const [products] = useState<Product[]>(productsData as Product[]);
     const [selectedCollection, setSelectedCollection] = useState<collection | null>(null);
+    const [showDropdown, setShowDropdown] = useState(false);
 
     const filteredProducts = selectedCollection 
         ? products.filter(product => product.collection === selectedCollection) 
@@ -35,7 +36,7 @@ export default function Products() {
                 </div>
             </section>
             <section className="sec_container">
-                <button className="group relative">
+                <button id="filter" className="group relative" onClick={() => setShowDropdown(!showDropdown)}>
                     <span className="flex items-center border-[0.8px] w-max px-2">
                         <svg className="mr-4.5" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="20px" width="20px">
                             <path d="M16 120h480v48H16zm80 112h320v48H96zm96 112h128v48H192z"></path>
@@ -47,7 +48,7 @@ export default function Products() {
                             <path fill="none" stroke-linecap="square" stroke-miterlimit="10" stroke-width="48" d="m112 184 144 144 144-144"></path>
                         </svg>
                     </span>
-                    <div className="hidden absolute group-hover:block top-full w-fit py-6 filter-dropdown">
+                    <div id="filter-dropdown" className={`${showDropdown ? 'block' : 'hidden'} absolute group-hover:block top-full w-fit py-6 filter-dropdown`}>
                         <div className="px-4 flex flex-col gap-3 z-30 relative">
                             <button  className="px-5 block py-2 bg-[#eaeff2] hover:bg-[#d4dae0] rounded-sm" onClick={() => setSelectedCollection("white")}>White</button>
                             <button  className="px-5 block py-2 bg-[#eaeff2] hover:bg-[#d4dae0] rounded-sm" onClick={() => setSelectedCollection("colored")}>Colored</button>
