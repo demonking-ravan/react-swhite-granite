@@ -1,9 +1,22 @@
 import { Link } from 'react-router-dom';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import MobileMenu from './MobileMenu';
 
 export default function Header() {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
+  const [visible, setVisible] = useState(true);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollPos = window.pageYOffset;
+      setVisible(prevScrollPos > currentScrollPos || currentScrollPos < 10);
+      setPrevScrollPos(currentScrollPos);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [prevScrollPos, visible]);
 
   const toggleMobileMenu = () => {
     setMobileMenuOpen(!isMobileMenuOpen);
@@ -11,7 +24,7 @@ export default function Header() {
 
   return (
     <>
-      <header className="h-24 w-full animate-fadeIn flex items-center justify-between">
+      <header className={`h-24 w-full flex items-center justify-between top-0 left-0 right-0 z-50 bg-white transition-all duration-300 ${visible ? 'translate-y-0 sticky' : '-translate-y-full'}`}>
         <div className="sec_container flex items-center justify-between h-full">
           <div className="md:hidden cursor-pointer" onClick={toggleMobileMenu}>
             <Link to="/">

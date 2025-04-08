@@ -2,38 +2,66 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
     return (
-        <footer id="footer" className="flex flex-col items-center w-full bg-[#F7F7F7] pt-6 relative z-[3]">
-            <div className="sec_container mx-auto pt-6 pb-2 lg:py-6 ">
+        <footer id="footer" className="flex flex-col items-center w-full bg-black pt-6 relative z-[3]">
+            <div className="sec_container mx-auto pt-6 pb-2 lg:py-6 text-white">
                 <div className="grid-main">
                     <div className="col-start-1 col-end-13 md:col-end-5 flex justify-center md:justify-start">
                         <Link to="/home" className="font-serif text-2xl font-bold text-gray-800 hover">
-                            <img className='h-auto max-w-2xs ' src="/logo.png" alt="logo" />
+                            <img className='h-auto max-w-2xs invert' src="/logo.png" alt="logo" />
                         </Link>
                     </div>
 
                     <div className="col-start-1 col-end-6 md:col-start-5 md:col-end-9 flex flex-col justify-center mt-6 md:mt-0">
                         <p className="font-bold text-primary uppercase mb-1">Call us now</p>
                         <div className="flex flex-wrap gap-1">
-                            <a href="tel:9414012234" className="font-light mb-0">
-                                <p className="font-light [font-size:clamp(1.125rem,18px,1.125rem)] [line-height:clamp(1.46875rem,calc(.50223vw_+_20.28571px),1.75rem)]">
-                                    9414012234,
-                                </p> 
+                            <a href="tel:9414012234" className="font-light mb-0 group">
+                                <div className='overflow-hidden relative w-fit'>
+                                    <div className='group-hover:-translate-y-[101%] transition-all duration-700 inline-block'>
+                                        <p className="font-light [font-size:clamp(1.125rem,18px,1.125rem)] [line-height:clamp(1.46875rem,calc(.50223vw_+_20.28571px),1.75rem)]">
+                                            9414012234,
+                                        </p>
+                                    </div>
+                                    <div aria-hidden={true} className='absolute left-0 group-hover:translate-y-[0] translate-y-[101%] top-0 transition-all duration-700'>
+                                        <p className="font-light [font-size:clamp(1.125rem,18px,1.125rem)] [line-height:clamp(1.46875rem,calc(.50223vw_+_20.28571px),1.75rem)]">
+                                            9414012234,
+                                        </p>
+                                    </div>
+                                </div>
                             </a>  
-                            <a href="tel:8890044922" className="font-light mb-0">
-                                <p className="font-light [font-size:clamp(1.125rem,18px,1.125rem)] [line-height:clamp(1.46875rem,calc(.50223vw_+_20.28571px),1.75rem)]">
-                                    8890044922
-                                </p> 
+                            <a href="tel:8890044922" className="font-light mb-0 group">
+                                <div className='overflow-hidden relative w-fit'>
+                                    <div className='group-hover:-translate-y-[101%] transition-all duration-700 inline-block'>
+                                        <p className="font-light [font-size:clamp(1.125rem,18px,1.125rem)] [line-height:clamp(1.46875rem,calc(.50223vw_+_20.28571px),1.75rem)]">
+                                            8890044922
+                                        </p>
+                                    </div>
+                                    <div aria-hidden={true} className='absolute left-0 group-hover:translate-y-[0] translate-y-[101%] top-0 transition-all duration-700'>
+                                        <p className="font-light [font-size:clamp(1.125rem,18px,1.125rem)] [line-height:clamp(1.46875rem,calc(.50223vw_+_20.28571px),1.75rem)]">
+                                            8890044922
+                                        </p>
+                                    </div>
+                                </div>
                             </a> 
                         </div> 
                     </div>
 
                     <div className="col-start-7 md:col-start-9 col-end-13 flex flex-col justify-center mt-6 md:mt-0">
                         <p className="font-bold text-primary uppercase mb-1">Email us</p>
-                        <a className="mb-0 flex-wrap" href="mailto:swhitegranite11@gmail.com">
-                            <p className="font-light [font-size:clamp(1.125rem,18px,1.125rem)] [line-height:clamp(1.46875rem,calc(.50223vw_+_20.28571px),1.75rem)]">
-                                swhitegranite11
-                            </p>
-                            <span className="font-light [font-size:clamp(1.125rem,18px,1.125rem)] [line-height:clamp(1.46875rem,calc(.50223vw_+_20.28571px),1.75rem)]">@gmail.com</span>
+                        <a className="mb-0 group" href="mailto:swhitegranite11@gmail.com">
+                            <div className='overflow-hidden relative w-fit'>
+                                <div className='group-hover:-translate-y-[101%] transition-all duration-700 flex flex-wrap'>
+                                    <span className="font-light [font-size:clamp(1.125rem,18px,1.125rem)] [line-height:clamp(1.46875rem,calc(.50223vw_+_20.28571px),1.75rem)]">
+                                        swhitegranite11
+                                    </span>
+                                    <span className="font-light [font-size:clamp(1.125rem,18px,1.125rem)] [line-height:clamp(1.46875rem,calc(.50223vw_+_20.28571px),1.75rem)]">@gmail.com</span>
+                                </div>
+                                <div aria-hidden={true} className='absolute left-0 group-hover:translate-y-[0] translate-y-[101%] top-0 transition-all duration-700 flex flex-wrap'>
+                                    <span className="font-light [font-size:clamp(1.125rem,18px,1.125rem)] [line-height:clamp(1.46875rem,calc(.50223vw_+_20.28571px),1.75rem)]">
+                                        swhitegranite11
+                                    </span>
+                                    <span className="font-light [font-size:clamp(1.125rem,18px,1.125rem)] [line-height:clamp(1.46875rem,calc(.50223vw_+_20.28571px),1.75rem)]">@gmail.com</span>
+                                </div>
+                            </div>
                         </a>
                         {/* <p className="font-light">13.12.2024 - 22.04.2025</p> */}
                     </div>
@@ -56,13 +84,13 @@ export default function Footer() {
                                     Getting here
                                     <div className="link-container">
                                         <span className="inline-grid init-arrow w-full h-full">
-                                            <svg fill="none" viewBox="0 0 41 41" className="inline-grid init-arrow w-full h-full">
-                                                <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" d="M38.741 2.258 1.967 39.032M39.468 39.274V1.532H1.727"></path>
+                                            <svg fill="none" viewBox="0 0 41 41" stroke="currentColor" className="inline-grid init-arrow w-full h-full">
+                                                <path stroke-linecap="round" stroke-linejoin="round" d="M38.741 2.258 1.967 39.032M39.468 39.274V1.532H1.727"></path>
                                             </svg>
                                         </span>
                                         <span className="inline-grid hover-arrow w-full h-full">
-                                            <svg fill="none" viewBox="0 0 41 41" className="inline-grid hover-arrow w-full h-full">
-                                                <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" d="M38.741 2.258 1.967 39.032M39.468 39.274V1.532H1.727"></path>
+                                            <svg fill="none" viewBox="0 0 41 41" stroke="currentColor" className="inline-grid hover-arrow w-full h-full">
+                                                <path stroke-linecap="round" stroke-linejoin="round" d="M38.741 2.258 1.967 39.032M39.468 39.274V1.532H1.727"></path>
                                             </svg>
                                         </span>
                                     </div>
@@ -87,11 +115,11 @@ export default function Footer() {
                     </div>
 
                     <div className="col-start-1 col-end-6 md:col-start-8 md:col-end-11 lg:col-start-9 lg:col-end-12 mt-6">
-                        <a href="#" rel="noopener noreferrer" className="capitalize ">
+                        <a href="#" rel="noopener noreferrer" className="group">
                             <div className="mr-2">
                                 <svg
                                     data-icon="true"
-                                    className="relative z-10 transition duration-300 w-5 h-5 fill-primary"
+                                    className="relative z-10 transition duration-300 w-5 h-5 fill-primary group-hover:fill-[#4f846d]"
                                     width="25"
                                     height="25"
                                     viewBox="0 0 25 25"
@@ -127,13 +155,16 @@ export default function Footer() {
                                     </defs>
                                 </svg>
                             </div>
-                            facebook
+                            <div className='overflow-hidden relative w-fit group'>
+                                <p className='nav-link group-hover:-translate-y-[101%] transition-all duration-700 inline-block capitalize'>Facebook</p>
+                                <p aria-hidden={true} className='nav-link absolute left-0 group-hover:translate-y-[0] translate-y-[101%] top-0 transition-all duration-700 capitalize' >Facebook</p>
+                            </div>
                         </a>
-                        <a href="#" rel="noopener noreferrer" className="capitalize ">
+                        <a href="#" rel="noopener noreferrer" className="group">
                             <div className="mr-2">
                                 <svg
                                     data-icon="true"
-                                    className="relative z-10 transition duration-300 w-5 h-5 fill-primary"
+                                    className="relative z-10 transition duration-300 w-5 h-5 fill-primary group-hover:fill-[#4f846d]"
                                     width="25"
                                     height="25"
                                     viewBox="0 0 25 25"
@@ -145,13 +176,16 @@ export default function Footer() {
                                     </path>
                                 </svg>
                             </div>
-                            instagram
+                            <div className='overflow-hidden relative w-fit group'>
+                                <p className='nav-link group-hover:-translate-y-[101%] transition-all duration-700 inline-block capitalize'>Instagram</p>
+                                <p aria-hidden={true} className='nav-link absolute left-0 group-hover:translate-y-[0] translate-y-[101%] top-0 transition-all duration-700 capitalize' >Instagram</p>
+                            </div>
                         </a>
-                        <a href="#" rel="noopener noreferrer" className="capitalize ">
+                        <a href="#" rel="noopener noreferrer" className="group">
                             <div className="mr-2">
                                 <svg
                                     data-icon="true"
-                                    className="relative z-10 transition duration-300 w-5 h-5 fill-primary"
+                                    className="relative z-10 transition duration-300 w-5 h-5 fill-primary group-hover:fill-[#4f846d]"
                                     width="25"
                                     height="25"
                                     viewBox="0 0 25 25"
@@ -182,17 +216,20 @@ export default function Footer() {
                                     </defs>
                                 </svg>
                             </div>
-                            linkedin
+                            <div className='overflow-hidden relative w-fit group'>
+                                <p className='nav-link group-hover:-translate-y-[101%] transition-all duration-700 inline-block capitalize'>Linkedin</p>
+                                <p aria-hidden={true} className='nav-link absolute left-0 group-hover:translate-y-[0] translate-y-[101%] top-0 transition-all duration-700 capitalize' >Linkedin</p>
+                            </div>
                         </a>
                     </div>
 
                     <div className="col-start-6 col-end-12 md:col-start-11 md:col-end-13 lg:col-start-12 lg:col-end-13 mt-6">
-                        <a className="p-6 bg-primary hover:bg-primary/85 text-white uppercase rounded-full float-end" href="#">Download Brochure</a>
+                        <a className="p-6 bg-primary hover:bg-primary/85 text-white uppercase rounded-sm float-end" href="#">Download Brochure</a>
                     </div>
                 </div>
             </div>
 
-            <div className="sec_container bg-[#F7F7F7] py-4">
+            <div className="sec_container bg-[#0a0a0a] text-white py-4">
                 <div className="text-center lg:mx-auto">
                     <p className="text-[10px] uppercase mb-1 ">
                         © 2025 S White Granite Pvt. Ltd. All rights reserved.
