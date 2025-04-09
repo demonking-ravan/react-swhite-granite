@@ -1,4 +1,5 @@
 import HoverCard from "../components/HoverCard";
+import ImageSlider from "../components/ImageSlider";
 import SectionTitle from "../components/SectionTitle";
 import TestimonialSlider from "../components/TestimonialSlider";
 import teamMembers from "../data/team.json";
@@ -15,7 +16,7 @@ export default function About() {
                                 <blockquote className="text-justify">
                                     At <span>S White Granite</span>, we’ve been transforming spaces for over 25 years with our premium marble and granite products.
                                     Established as a trusted name in the stone industry, our company has consistently set the standard for <span>quality</span>,
-                                    <span>craftsmanship</span>, and <span>reliability</span>. From luxury homes to commercial spaces, we offer a wide variety of marble,
+                                    <span> craftsmanship</span>, and <span>reliability</span>. From luxury homes to commercial spaces, we offer a wide variety of marble,
                                     granite, and custom stone solutions that make every project stand out.
                                 </blockquote>
                             </div>
@@ -25,13 +26,14 @@ export default function About() {
             </section>
 
             <section className="sec_container">
-                <div className="grid md:grid-cols-2 md:gap-14">
-                    <div className="w-full h-full relative">
-                        <img
+                <div className="grid md:grid-cols-2 md:gap-14 h-max">
+                    <div className="w-full max-h-[540px] relative">
+                        {/* <img
                             className="w-full h-full object-cover"
                             src="/images/about-us.png"
                             alt="image"
-                        />
+                        /> */}
+                        <ImageSlider/>
                         <HoverCard positionStyles="right-[-16px] bottom-[-29px]" />
                     </div>
                     <div className="w-full h-max mt-10 md:mt-0">
@@ -172,71 +174,6 @@ export default function About() {
                 </div>
             </section>
 
-            {/* <div className="w-full h-[660px] md:h-[512px] lg:h-[576px] xl:h-[720px] relative overflow-hidden">
-
-                <div className="w-full h-full">
-                    <img src="/assets/dark_reverse_marble_background-scaled.jpg" alt="an image of a house with a pool" className="w-full h-full object-cover object-center" />
-                </div>
-
-
-                <div className="w-full absolute top-20 sm:top-1/2 xl:left-1/2 xl:-translate-x-1/2 sm:-translate-y-1/2 xl:max-w-screen-xl 2xl:max-w-screen-2xl mx-auto">
-                    <div className="text-white flex flex-col md:flex-row gap-12 sm:gap-8 lg:gap-12 w-full relative">
-                        <div className="w-full md:justify-end flex gap-6 sm:w-[401px] lg:w-[513px] xl:w-[549px] flex-shrink-0 text-">
-                            <div className="w-10 md:w-full h-2 bg-white xl:absolute xl:-left-[81.5%] 2xl:-left-[85%]"></div>
-                            <span className="heading md:-mt-1.5 lg:-mt-2 font-serif">
-                                text-[220px] sm:text-[280px] xl:text-[320px] leading-[158px] sm:leading-[201px] xl:leading-[230px] md:-mt-1.5 lg:-mt-2
-                                25
-                            </span>
-                        </div>
-
-                        <div className="w-full pl-14 md:pl-0">
-                            <div className="w-full pr-14 md:pr-12">
-                                <h4 className="sec_heading font-serif">
-                                    text-xl font-semibold leading-snug max-w-[191px] sm:max-w-[287px] lg:max-w-[279px] 
-                                    Years of Industry Expertise You Can Trust
-                                </h4>
-                                <p className="mt-4 w-full leading-relaxed sm:max-w-[287px] lg:max-w-[479px] mb-4">
-                                    At S White Granite, we believe that every architectural project deserves a personalized touch.
-                                    Architects and designers can rely on our team’s deep industry expertise to create innovative,
-                                    tailored solutions that bring their visions to life. Whether it's a large-scale commercial
-                                    development or a private luxury space, we are dedicated to customizing our products to meet
-                                    the specific needs and aspirations of every client.
-                                </p>
-                            </div>
-
-                            <div className="bg-primary w-full h-px xl:absolute"></div>
-
-                        </div>
-                    </div>
-                </div>
-            </div> */}
-
-            {/* <div className="sec_container pb-16">
-                <div className="w-full relative">
-                    <div className="absolute -top-[85px] md:-top-20 lg:-top-[99px] xl:-top-[105px] 2xl:-top-[70px] right-1/2 translate-x-1/2 lg:translate-x-0 lg:right-16 xl:right-0">
-                        <img src="/images/team/jagdish-prasad-sahu.jpg" alt="stairs image" className="w-full h-auto object-cover object-center" />
-                    </div>
-
-                    <div className="pt-[120px] md:pt-[234px] lg:pt-16 xl:pt-32">
-                        <div className="w-full lg:max-w-[416px] xl:max-w-[464px] 2xl:max-w-[584px]">
-                            <h2 className="sec_heading font-serif w-full md:max-w-[490px]">
-                                text-2xl md:text-[32px] xl:text-[40px] text-neutral-900 font-semibold leading-tight 
-                                Director’s <strong>Message</strong>
-                            </h2>
-
-                            <p className="mt-6 leading-relaxed w-full">
-                                Success is built on the foundation of trust, dedication, and hard work. Over the years,
-                                we have earned the trust of our clients by always delivering the highest quality marble
-                                and granite, and we will continue to uphold these values in every project we take on.
-                            </p>
-                            <p className="nav-link mt-6">
-                                — Jagdish Prasad Sahu, Director
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div> */}
-
             <section className="sec_container">
                 <div className="flex flex-col items-center justify-center">
                     <SectionTitle text="our testimonials" />
@@ -284,56 +221,13 @@ export default function About() {
                 </div>
             </section>
 
-            {/* <section className="sec_container">
-                <div className="flex flex-wrap gap-10 md:gap-0">
-                    <div className="w-full md:w-2/5 md:pr-18 flex gap-8 flex-col justify-end">
-                        <h2 className="sec_heading font-serif">
-                            Our <strong>Mission</strong>
-                        </h2>
-                        <p>
-                            With over 25 years in the industry, our mission
-                            remains the same: to provide premium marble and
-                            granite products that meet the highest standards of
-                            quality and craftsmanship. We are passionate about
-                            delivering elegant, durable, and timeless solutions
-                            that elevate the aesthetic of every space. Guided by
-                            innovation and a commitment to excellence, we ensure
-                            each project is an expression of unparalleled skill and artistry.
-                        </p>
-                    </div>
-                    <div className="w-full h-full md:flex-1">
-                        <img className="w-full max-h-[420px] object-cover" src="/images/AGM-Warehouse.jpg" alt="image" />
-                    </div>
-                </div>
-
-                <div className="flex flex-wrap mt-10 flex-col-reverse md:[flex-direction:initial] gap-10 md:gap-0">
-                    <div className="w-full h-full md:w-2/5">
-                        <img className="w-full max-h-[420px] object-cover" src="/images/vision.jpg" alt="image" />
-                    </div>
-                    <div className="w-full md:flex-1 md:pl-18 md:max-w-lg flex gap-8 flex-col justify-end">
-                        <h2 className="sec_heading font-serif">
-                            Our <strong>Vision</strong>
-                        </h2>
-                        <p>
-                            We are guided and inspired by our vision to be the leading
-                            supplier of marble and granite in the industry. Our goal is
-                            to consistently exceed client expectations by offering a vast
-                            range of high-quality stone products that cater to diverse tastes
-                            and needs. We envision transforming spaces with the beauty and
-                            longevity of our products while maintaining an unwavering
-                            focus on sustainability and responsible sourcing.
-                        </p>
-                    </div>
-                </div>
-            </section> */}
-
             <section className="sec_container">
                 {/* mission */}
-                <div className="py-10 lg:py-14">
+                <div className="pt-10 lg:pt-14">
                     {/* Grid */}
                     <div className="md:grid md:grid-cols-2 md:items-center md:gap-12 xl:gap-32">
                         <div>
-                            <img className="rounded-xl" src="/images/AGM-Warehouse.jpg" alt="our mission" />
+                            <img className="rounded-xl max-h-[425px] w-full object-cover" src="/images/AGM-Warehouse.jpg" alt="our mission" />
                         </div>
                         {/* End Col */}
 
@@ -364,7 +258,7 @@ export default function About() {
                 </div>
 
                 {/* vision */}
-                <div className="py-10 lg:py-14">
+                <div className="pb-10 lg:pb-14 pt-9">
                     {/* Grid */}
                     <div className="md:grid md:grid-cols-2 md:items-center md:gap-12 xl:gap-32">
                         <div className="mt-5 sm:mt-10 lg:mt-0">
@@ -389,7 +283,7 @@ export default function About() {
                         </div>
 
                         <div>
-                            <img className="rounded-xl" src="/images/vision.jpg" alt="our mission" />
+                            <img className="rounded-xl max-h-[425px] w-full object-cover" src="/images/vision.png" alt="our mission" />
                         </div>
                     </div>
                     {/* End Grid */}

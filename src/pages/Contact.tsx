@@ -270,7 +270,8 @@ export default function Contact() {
                     >
                         <form
                             id="contact-form"
-                            method="post"
+                            action="https://formsubmit.co/swhitegranite11@gmail.com" 
+                            method="POST"
                             className="grid grid-cols-2 md:gap-y-8 gap-y-4 gap-x-4"
                         >
                             <div
@@ -359,11 +360,10 @@ export default function Contact() {
 
                             <div input-wrapper="" className="flex flex-col col-span-2">
                                 <textarea
-                                    className="outline-none text-black font-secondary bg-primary-500/20 pl-0.5"
+                                    className="fields-style outline-none text-black font-secondary bg-primary-500/20 pl-0.5"
                                     rows={4}
                                     name="Message"
                                     placeholder="Enter your message."
-                                    // className="form-input"
                                     required></textarea>
                             </div>
 
@@ -388,7 +388,7 @@ export default function Contact() {
                                     type="submit"
                                     className="flex has-icon-moving-animation disabled:opacity-50 w-fit"
                                 >
-                                    <span className="px-6 py-2 bg-white border rounded-full font-primary transition-colors hover:bg-primary-500/40 hover:border-primary-500">Submit Your Response</span>
+                                    <span className="px-6 py-2 bg-primary border rounded-sm font-primary transition-colors hover:bg-[#333] text-white shadow-xl">Submit Your Response</span>
                                 </button>
                             </div>
 

@@ -12,7 +12,7 @@ export default function Footer() {
                     </div>
 
                     <div className="col-start-1 col-end-6 md:col-start-5 md:col-end-9 flex flex-col justify-center mt-6 md:mt-0">
-                        <p className="font-bold text-primary uppercase mb-1">Call us now</p>
+                        <p className="font-bold text-gray-500 uppercase mb-1">Call us now</p>
                         <div className="flex flex-wrap gap-1">
                             <a href="tel:9414012234" className="font-light mb-0 group">
                                 <div className='overflow-hidden relative w-fit'>
@@ -46,7 +46,7 @@ export default function Footer() {
                     </div>
 
                     <div className="col-start-7 md:col-start-9 col-end-13 flex flex-col justify-center mt-6 md:mt-0">
-                        <p className="font-bold text-primary uppercase mb-1">Email us</p>
+                        <p className="font-bold text-gray-500 uppercase mb-1">Email us</p>
                         <a className="mb-0 group" href="mailto:swhitegranite11@gmail.com">
                             <div className='overflow-hidden relative w-fit'>
                                 <div className='group-hover:-translate-y-[101%] transition-all duration-700 flex flex-wrap'>
@@ -101,16 +101,16 @@ export default function Footer() {
 
                     <div className="col-start-1 col-end-6 md:col-start-4 md:col-end-6 lg:col-start-5 lg:col-end-7 mt-6">
                         <ul className="">
-                            <li><Link to="/" className="">Home</Link></li>
-                            <li><Link to="/about" className="">About us</Link></li>
-                            <li><Link to="/products" className="">Products</Link></li>
+                            <li><Link to="/" className="hover:text-gray-400">Home</Link></li>
+                            <li><Link to="/about" className="hover:text-gray-400">About us</Link></li>
+                            <li><Link to="/products" className="hover:text-gray-400">Products</Link></li>
                         </ul>
                     </div>
 
                     <div className="col-start-6 col-end-13 md:col-start-6 md:col-end-8 lg:col-start-7 lg:col-end-9 mt-6">
                         <ul className="">
-                            <li><Link to="/contact" className="">Contact</Link></li>
-                            <li><Link to="/blogs" className="">Blog</Link></li>
+                            <li><Link to="/contact" className="hover:text-gray-400">Contact</Link></li>
+                            <li><Link to="/blogs" className="hover:text-gray-400">Blog</Link></li>
                         </ul>
                     </div>
 
@@ -119,7 +119,7 @@ export default function Footer() {
                             <div className="mr-2">
                                 <svg
                                     data-icon="true"
-                                    className="relative z-10 transition duration-300 w-5 h-5 fill-primary group-hover:fill-[#4f846d]"
+                                    className="relative z-10 transition duration-300 w-5 h-5 group-hover:fill-gray-500 fill-white"
                                     width="25"
                                     height="25"
                                     viewBox="0 0 25 25"
@@ -164,7 +164,7 @@ export default function Footer() {
                             <div className="mr-2">
                                 <svg
                                     data-icon="true"
-                                    className="relative z-10 transition duration-300 w-5 h-5 fill-primary group-hover:fill-[#4f846d]"
+                                    className="relative z-10 transition duration-300 w-5 h-5 group-hover:fill-gray-500 fill-white"
                                     width="25"
                                     height="25"
                                     viewBox="0 0 25 25"
@@ -185,7 +185,7 @@ export default function Footer() {
                             <div className="mr-2">
                                 <svg
                                     data-icon="true"
-                                    className="relative z-10 transition duration-300 w-5 h-5 fill-primary group-hover:fill-[#4f846d]"
+                                    className="relative z-10 transition duration-300 w-5 h-5 group-hover:fill-gray-500 fill-white"
                                     width="25"
                                     height="25"
                                     viewBox="0 0 25 25"
@@ -224,7 +224,7 @@ export default function Footer() {
                     </div>
 
                     <div className="col-start-6 col-end-12 md:col-start-11 md:col-end-13 lg:col-start-12 lg:col-end-13 mt-6">
-                        <a className="p-6 bg-primary hover:bg-primary/85 text-white uppercase rounded-sm float-end" href="#">Download Brochure</a>
+                        <a className="p-6 bg-white hover:bg-gray-300 text-black uppercase rounded-sm float-end" href="#">Download Brochure</a>
                     </div>
                 </div>
             </div>

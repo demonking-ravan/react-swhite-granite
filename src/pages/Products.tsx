@@ -52,7 +52,7 @@ export default function Products() {
                         <div className="px-4 flex flex-col gap-3 z-30 relative">
                             <button  className="px-5 block py-2 bg-[#eaeff2] hover:bg-[#d4dae0] rounded-sm" onClick={() => setSelectedCollection("white")}>White</button>
                             <button  className="px-5 block py-2 bg-[#eaeff2] hover:bg-[#d4dae0] rounded-sm" onClick={() => setSelectedCollection("colored")}>Colored</button>
-                            <button className="px-5 py-2 w-max bg-primary hover:bg-[#0e412b] rounded-sm text-white" onClick={() => setSelectedCollection(null)}>All Products</button>
+                            <button className="px-5 py-2 w-max bg-primary hover:bg-[#222] rounded-sm text-white" onClick={() => setSelectedCollection(null)}>All Products</button>
                         </div>
                     </div>
                 </button>

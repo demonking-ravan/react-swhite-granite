@@ -136,7 +136,7 @@ export default function Home() {
                                                 development or a private luxury space, we are dedicated to customizing our products to meet
                                                 the specific needs and aspirations of every client.
                                             </p>
-                                            <Link className="p-6 text-[10px] bg-primary text-white uppercase rounded-full w-max" to="/about">Learn More</Link>
+                                            <Link className="p-6 text-[10px] bg-primary text-white uppercase rounded-sm w-max hover:bg-[#222]" to="/about">Learn More</Link>
                                         </div>
                                         {/* End Title */}
                                     </div>
@@ -203,7 +203,7 @@ export default function Home() {
                             <div className="mt-10 lg:mt-0 lg:col-span-6 lg:col-end-13">
                                 <div className="space-y-6 sm:space-y-8">
                                     {/* List */}
-                                    <ul className="grid grid-cols-2 divide-y divide-y-2 divide-x divide-x-2 divide-gray-200 overflow-hidden">
+                                    <ul className="grid grid-cols-2 divide-y-2 divide-x-2 divide-gray-200 overflow-hidden">
                                         <li className="flex flex-col -m-0.5 p-4 sm:p-8">
                                             <div className="flex items-end gap-x-2 text-3xl sm:text-5xl font-bold text-gray-800 mb-2">
                                                 25+
