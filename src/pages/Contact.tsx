@@ -339,8 +339,6 @@ export default function Contact() {
                                     type="text"
                                     name="State"
                                     placeholder="State"
-                                    // className="form-input"
-                                    required
                                 />
                             </div>
 
@@ -353,8 +351,6 @@ export default function Contact() {
                                     type="text"
                                     name="Country"
                                     placeholder="Country"
-                                    // className="form-input"
-                                    required
                                 />
                             </div>
 
@@ -364,7 +360,8 @@ export default function Contact() {
                                     rows={4}
                                     name="Message"
                                     placeholder="Enter your message."
-                                    required></textarea>
+                                >
+                                </textarea>
                             </div>
 
                             {/* <div
