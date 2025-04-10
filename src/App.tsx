@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, useLocation } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
 import Products from './pages/Products';
@@ -12,12 +12,21 @@ import "./styles.css";
 import BlogPost from './pages/BlogPost';
 import AnnouncementBanner from './components/AnnouncementBanner';
 
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
+
 function App() {
   const [posts, setPosts] = useState<Post[]>([]);
 
   useEffect(() => {
     loadPosts().then((loadedPosts) => {
-      console.log('Loaded posts:', loadedPosts); // Debug log
       setPosts(loadedPosts);
     });
   }, []);
@@ -26,6 +35,7 @@ function App() {
     <>
       <AnnouncementBanner/>
       <Header/>
+      <ScrollToTop/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/products" element={<Products />} />

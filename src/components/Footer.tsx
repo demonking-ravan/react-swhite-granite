@@ -7,12 +7,12 @@ export default function Footer() {
                 <div className="grid-main">
                     <div className="col-start-1 col-end-13 md:col-end-5 flex justify-center md:justify-start">
                         <Link to="/home" className="font-serif text-2xl font-bold text-gray-800 hover">
-                            <img className='h-auto max-w-2xs invert' src="/logo.png" alt="logo" />
+                            <img className='h-auto max-w-2xs' src="/logo-white.png" alt="logo" />
                         </Link>
                     </div>
 
                     <div className="col-start-1 col-end-6 md:col-start-5 md:col-end-9 flex flex-col justify-center mt-6 md:mt-0">
-                        <p className="font-bold text-gray-500 uppercase mb-1">Call us now</p>
+                        <p className="font-bold uppercase mb-1">Call us now</p>
                         <div className="flex flex-wrap gap-1">
                             <a href="tel:9414012234" className="font-light mb-0 group">
                                 <div className='overflow-hidden relative w-fit'>
@@ -46,7 +46,7 @@ export default function Footer() {
                     </div>
 
                     <div className="col-start-7 md:col-start-9 col-end-13 flex flex-col justify-center mt-6 md:mt-0">
-                        <p className="font-bold text-gray-500 uppercase mb-1">Email us</p>
+                        <p className="font-bold uppercase mb-1">Email us</p>
                         <a className="mb-0 group" href="mailto:swhitegranite11@gmail.com">
                             <div className='overflow-hidden relative w-fit'>
                                 <div className='group-hover:-translate-y-[101%] transition-all duration-700 flex flex-wrap'>
