@@ -224,7 +224,13 @@ export default function Footer() {
                     </div>
 
                     <div className="col-start-6 col-end-12 md:col-start-11 md:col-end-13 lg:col-start-12 lg:col-end-13 mt-6">
-                        <a className="p-4 bg-white hover:bg-gray-300 text-black uppercase rounded-sm float-end" href="#">Download Brochure</a>
+                        <a 
+                            className="p-4 bg-white hover:bg-gray-300 text-black uppercase rounded-sm float-end" 
+                            href="/assets/s-white-catalog_compressed.pdf" 
+                            download="s-white-catalog.pdf"
+                            >
+                            Download Brochure
+                        </a>
                     </div>
                 </div>
             </div>

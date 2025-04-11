@@ -15,7 +15,7 @@
   {"id": 16, "name": "Olive Fossil", "imgUrl": "/images/products/olive-fossil.jpg", "thickness": "18mm", "collection": "colored"},
   {"id": 17, "name": "Rossi Orobico", "imgUrl": "/images/products/rossi-orobico.jpg", "thickness": "18mm", "collection": "colored"},
   {"id": 18, "name": "Fusion Fire", "imgUrl": "/images/products/fusion-fire.jpg", "thickness": "18mm", "collection": "colored"},
-  {"id": 19, "name": "Ross’s Gold", "imgUrl": "/images/products/ross-gold.jpg", "thickness": "18mm", "collection": "colored"},
+  {"id": 19, "name": "Ross’s Gold", "imgUrl": "/images/products/ross-gold.jpeg", "thickness": "18mm", "collection": "colored"},
   {"id": 20, "name": "Rossi Dalicatus", "imgUrl": "/images/products/rossi-dalicatus.jpeg", "thickness": "18mm", "collection": "colored"},
   {"id": 21, "name": "Perlino Roma", "imgUrl": "/images/products/perlino-roma.jpg", "thickness": "18mm", "collection": "colored"},
   {"id": 22, "name": "Rossi Lavante", "imgUrl": "/images/products/rossi-lavante.png", "thickness": "18mm", "collection": "colored"},
