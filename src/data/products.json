@@ -63,7 +63,7 @@
   {"id": 65, "name": "Micheal Angelo - 1", "imgUrl": "/images/products/micheal-angelo.jpeg", "thickness": "18mm", "collection": "white"},
   {"id": 69, "name": "Statuario - 1", "imgUrl": "/images/products/statuario.jpeg", "thickness": "18mm", "collection": "white"},
   {"id": 71, "name": "White Equator", "imgUrl": "/images/products/white-equator.jpeg", "thickness": "18mm", "collection": "white"},
-  {"id": 72, "name": "Cat’s Eye", "imgUrl": "/images/products/cats-eye.jpeg", "thickness": "18mm", "collection": "white"},
+  {"id": 72, "name": "Cat’s Eye", "imgUrl": "/images/products/cats-eye.jpeg", "thickness": "18mm", "collection": "colored"},
   {"id": 73, "name": "P white", "imgUrl": "/images/products/p-white.jpg", "thickness": "18mm", "collection": "white"},
   {"id": 74, "name": "Alaska white", "imgUrl": "/images/products/alaskan-white.jpeg", "thickness": "18mm", "collection": "white"},
   {"id": 75, "name": "Azul white", "imgUrl": "/images/products/azul-white.jpeg", "thickness": "18mm", "collection": "white"},
@@ -72,6 +72,6 @@
   {"id": 78, "name": "Asian grey", "imgUrl": "/images/products/asian-grey.jpeg", "thickness": "18mm", "collection": "white"},
   {"id": 79, "name": "Viscon white", "imgUrl": "/images/products/viscon-white.jpeg", "thickness": "18mm", "collection": "white"},
   {"id": 80, "name": "Kashmir white", "imgUrl": "/images/products/kashmir-white.jpeg", "thickness": "18mm", "collection": "white"},
-  {"id": 81, "name": "Adunik pink", "imgUrl": "/images/products/adunik-pink.jpg", "thickness": "18mm", "collection": "white"},
-  {"id": 82, "name": "Rose granite", "imgUrl": "/images/products/rose-granite.jpeg", "thickness": "18mm", "collection": "white"}
+  {"id": 81, "name": "Adunik pink", "imgUrl": "/images/products/adunik-pink.jpg", "thickness": "18mm", "collection": "colored"},
+  {"id": 82, "name": "Rose granite", "imgUrl": "/images/products/rose-granite.jpeg", "thickness": "18mm", "collection": "colored"}
 ]
