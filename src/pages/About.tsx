@@ -283,7 +283,7 @@ export default function About() {
                         </div>
 
                         <div>
-                            <img className="rounded-xl max-h-[425px] w-full object-cover" src="/images/vision.png" alt="our mission" />
+                            <img className="rounded-xl max-h-[425px] w-full object-cover" src="/images/vision.jpeg" alt="our mission" />
                         </div>
                     </div>
                     {/* End Grid */}
@@ -306,7 +306,7 @@ export default function About() {
                     className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-7 mt-16"
                 >
                     <div
-                        className="bg-white hover:bg-secondaryshade duration-200 py-6 px-5 rounded-lg flex justify-center items-center flex-col shadow-[0px_0px_59px_0px_rgba(38,62,84,0.06)]"
+                        className="bg-white hover:bg-secondaryshade duration-200 py-6 px-5 rounded-lg flex items-center flex-col shadow-[0px_0px_59px_0px_rgba(38,62,84,0.06)]"
                     >
                         <img
                             src="/images/wide-range.webp"
@@ -324,7 +324,7 @@ export default function About() {
                     </div>
 
                     <div
-                        className="bg-white hover:bg-secondaryshade duration-200 py-6 px-5 rounded-lg flex justify-center items-center flex-col shadow-[0px_0px_59px_0px_rgba(38,62,84,0.06)]"
+                        className="bg-white hover:bg-secondaryshade duration-200 py-6 px-5 rounded-lg flex items-center flex-col shadow-[0px_0px_59px_0px_rgba(38,62,84,0.06)]"
                     >
                         <img
                             src="/images/cutting-edge-tech.webp"
@@ -342,7 +342,7 @@ export default function About() {
                     </div>
 
                     <div
-                        className="bg-white hover:bg-secondaryshade duration-200 py-6 px-5 rounded-lg flex justify-center items-center flex-col shadow-[0px_0px_59px_0px_rgba(38,62,84,0.06)]"
+                        className="bg-white hover:bg-secondaryshade duration-200 py-6 px-5 rounded-lg flex items-center flex-col shadow-[0px_0px_59px_0px_rgba(38,62,84,0.06)]"
                     >
                         <img
                             src="/images/sustainable.webp"
@@ -360,7 +360,7 @@ export default function About() {
                     </div>
 
                     <div
-                        className="bg-white hover:bg-secondaryshade duration-200 py-6 px-5 rounded-lg flex justify-center items-center flex-col shadow-[0px_0px_59px_0px_rgba(38,62,84,0.06)]"
+                        className="bg-white hover:bg-secondaryshade duration-200 py-6 px-5 rounded-lg flex items-center flex-col shadow-[0px_0px_59px_0px_rgba(38,62,84,0.06)]"
                     >
                         <img
                             src="/images/expert.webp"

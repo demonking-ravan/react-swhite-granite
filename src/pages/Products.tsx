@@ -21,6 +21,12 @@ export default function Products() {
         ? products.filter(product => product.collection === selectedCollection) 
         : products;
 
+    const filteredText = selectedCollection === "white"
+        ? "White"
+        : selectedCollection === "colored"
+            ? "Colored"
+            : "Filter"
+
     return (
         <>
             <section>
@@ -42,7 +48,7 @@ export default function Products() {
                             <path d="M16 120h480v48H16zm80 112h320v48H96zm96 112h128v48H192z"></path>
                         </svg>
                         <span>
-                            Filter
+                            {filteredText}
                         </span>
                         <svg className="ml-1.5" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="20px" width="20px">
                             <path fill="none" stroke-linecap="square" stroke-miterlimit="10" stroke-width="48" d="m112 184 144 144 144-144"></path>
