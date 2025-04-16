@@ -115,7 +115,7 @@ export default function Footer() {
                     </div>
 
                     <div className="col-start-1 col-end-6 md:col-start-8 md:col-end-11 lg:col-start-9 lg:col-end-12 mt-6">
-                        <a href="#" rel="noopener noreferrer" className="group">
+                        <a href="https://www.facebook.com/share/1ENA6yFW5z/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" className="group">
                             <div className="mr-2">
                                 <svg
                                     data-icon="true"
@@ -160,7 +160,7 @@ export default function Footer() {
                                 <p aria-hidden={true} className='nav-link absolute left-0 group-hover:translate-y-[0] translate-y-[101%] top-0 transition-all duration-700 capitalize' >Facebook</p>
                             </div>
                         </a>
-                        <a href="#" rel="noopener noreferrer" className="group">
+                        <a href="https://www.instagram.com/swhitegranite?igsh=dzM5NXVmMnVxZjBw&utm_source=qr" target="_blank" rel="noopener noreferrer" className="group">
                             <div className="mr-2">
                                 <svg
                                     data-icon="true"
@@ -181,7 +181,7 @@ export default function Footer() {
                                 <p aria-hidden={true} className='nav-link absolute left-0 group-hover:translate-y-[0] translate-y-[101%] top-0 transition-all duration-700 capitalize' >Instagram</p>
                             </div>
                         </a>
-                        <a href="#" rel="noopener noreferrer" className="group">
+                        <a href="https://www.linkedin.com/in/karan-sahu-348502360" target="_blank" rel="noopener noreferrer" className="group">
                             <div className="mr-2">
                                 <svg
                                     data-icon="true"
