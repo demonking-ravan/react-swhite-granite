@@ -139,8 +139,8 @@
     }
     .main-navigation-wrapper {
         --tw-bg-opacity: 1;
-        background-color: #1e5e42;
-        background-color: rgb(30 94 66 / var(--tw-bg-opacity));
+        background-color: black;
+        /* background-color: rgb(30 94 66 / var(--tw-bg-opacity)); */
         padding: 5rem clamp(1.5rem, calc(3.57143vw + 1.14286px), 3.5rem) 3rem;
         width: 100%;
     }

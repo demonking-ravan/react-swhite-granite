@@ -16,19 +16,19 @@ export default function MobileMenu({ toggleMobileMenu }: { toggleMobileMenu: () 
                     <nav>
                         <ul className="main-header flex flex-col font-serif">
                             <li>
-                                <Link to="/">Home</Link>
+                                <Link to="/" onClick={toggleMobileMenu}>Home</Link>
                             </li>
                             <li>
-                                <Link to="/about">About</Link>
+                                <Link to="/about" onClick={toggleMobileMenu}>About</Link>
                             </li>
                             <li>
-                                <Link to="/products">Products</Link>
+                                <Link to="/products" onClick={toggleMobileMenu}>Products</Link>
                             </li>
                             <li>
-                                <Link to="/Contact">Contact</Link>
+                                <Link to="/Contact" onClick={toggleMobileMenu}>Contact</Link>
                             </li>
                             <li>
-                                <Link to="/blogs">Blogs</Link>
+                                <Link to="/blogs" onClick={toggleMobileMenu}>Blogs</Link>
                             </li>
                         </ul>
                     </nav>

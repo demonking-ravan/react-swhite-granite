@@ -1,27 +1,27 @@
 [
     {
         "name": "Jagdish Prasad Sahu",
-        "designation" :  "Director",
+        "designation" :  "Partner",
         "imgUrl": "/images/team/jagdish-prasad-sahu.jpg"
     },
     {
         "name": "Laxmi Narayan Sahu",
-        "designation": "Director",
+        "designation": "Partner",
         "imgUrl": "/images/team/laxmi-narayan-sahu.jpg"
     },
     {
         "name": "Ghanshyam Sahu",
-        "designation": "Director",
+        "designation": "Partner",
         "imgUrl": "/images/team/ghanshyam-sahu.jpg"
     },
     {
         "name": "Praveen Kumar Sahu",
-        "designation": "Director",
+        "designation": "Partner",
         "imgUrl": "/images/team/praveen-kumar-sahu.jpg"
     },
     {
         "name": "Ramesh sahu",
-        "designation": "Manager",
+        "designation": "Partner",
         "imgUrl": "/images/team/ramesh-sahu.jpg"
     }
 ]
